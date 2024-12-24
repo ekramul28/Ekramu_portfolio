@@ -50,6 +50,11 @@
                 <i class="uil uil-message nav__icon"></i>Contact-Me
               </a>
             </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Blog
+              </a>
+            </li>
           </ul>
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
@@ -185,14 +190,25 @@
               </div>
             </div>
 
-            <div class="about__buttons">
-              <a
-                href="https://drive.google.com/file/d/1kN-SkRqzSchwBENZeI9J_4qHpfO5XOio/view?usp=sharing"
-                download="assets/MyCv.pdf"
-                class="button button--flex"
-              >
-                Download CV<i class="fas fa-download button__icon"></i>
-              </a>
+            <div class="cv_button">
+              <div class="about__buttons">
+                <a
+                  href="https://drive.usercontent.google.com/u/0/uc?id=1kN-SkRqzSchwBENZeI9J_4qHpfO5XOio&export=download"
+                  download="assets/MyCv.pdf"
+                  class="button button--flex"
+                >
+                  Download CV<i class="fas fa-download button__icon"></i>
+                </a>
+              </div>
+              <div class="about__buttons">
+                <a
+                  href="https://drive.google.com/file/d/1kN-SkRqzSchwBENZeI9J_4qHpfO5XOio/view?usp=sharing"
+                  download="assets/MyCv.pdf"
+                  class="button button--flex"
+                >
+                  View CV<i class="fas fa-download button__icon"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -972,6 +988,64 @@
               </a>
             </div>
           </form>
+        </div>
+      </section>
+
+      <!--===================== Blog Section =====================-->
+
+      <section class="blog section" id="blog">
+        <div class="container">
+          <h2 class="section-title">Latest Blogs</h2>
+          <div class="blog-grid">
+            <div class="blog-card">
+              <img src="assets\img\blog1.png" alt="Blog 1" class="blog-image" />
+              <h3 class="blog-title">
+                How to Integrate Next-Auth with Your Next.js Application
+              </h3>
+              <p class="blog-description">
+                Recently, I migrated a frontend application from an older
+                version...
+              </p>
+              <a
+                href="https://dev.to/nagatodev/how-to-integrate-next-auth-with-your-nextjs-application-4mn9?ref=dailydev"
+                class="read-more"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+            <div class="blog-card">
+              <img src="assets\img\blog2.png" alt="Blog 2" class="blog-image" />
+              <h3 class="blog-title">What Will This Article Cover?</h3>
+              <p class="blog-description">
+                When using React, we strive to create...
+              </p>
+              <a
+                href="https://www.freecodecamp.org/news/create-react-reusable-modal-component/?ref=dailydev"
+                target="_blank"
+                class="read-more"
+                >Read More</a
+              >
+            </div>
+            <div class="blog-card">
+              <img
+                src="assets\img\blog3.jpeg"
+                alt="Blog 3"
+                class="blog-image"
+              />
+              <h3 class="blog-title">
+                Creating a GitHub Copilot Extension: A Step-by-Step Guide
+              </h3>
+              <p class="blog-description">
+                GitHub Copilot, the AI-powered coding assistant...
+              </p>
+              <a
+                href="https://blog.logrocket.com/advanced-next-js-caching-strategies/?ref=dailydev"
+                target="_blank"
+                class="read-more"
+                >Read More</a
+              >
+            </div>
+          </div>
         </div>
       </section>
     </main>
